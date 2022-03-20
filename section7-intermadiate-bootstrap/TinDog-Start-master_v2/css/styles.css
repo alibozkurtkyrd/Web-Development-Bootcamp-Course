@@ -1,0 +1,208 @@
+body{
+  font-family: 'Montserrat-Regular', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+p{
+  color: #8f8f8f;
+}
+/* Title section */
+
+
+
+
+/* Heading */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Download Button */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute; /*ben relative vermiştim kendi çözümümde*/
+  /* top:35%; */
+  /* z-index: 0; */
+  right: 30%;
+}
+
+
+/* Features section (challenge 77)*/
+
+#features{
+  /* padding: 7% 15%; öncesinde böyle vermiştim  4.5rem 6.5rem daha sonra(hocadan bakınca) yüzde kullandım */
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+
+
+.features-part{
+  padding: 2.0rem 4.5rem;
+}
+.features-icon{
+  color: #ef8172;
+  font-size: 100%;
+  padding-bottom: 1rem;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+
+  /* Testimonials  */
+
+
+
+  #testimonials{
+    background-color: #ef8172;
+  }
+
+  .testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  #press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+@media (max-width: 991px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+/* cta section */
+
+.download-button-cta{
+  margin:5% 3% 5% 0;
+}
+
+/* footer section */
+
+#footer{
+  background-color: #fff;
+}
+
+.footer-icon{
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+
+}
